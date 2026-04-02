@@ -216,10 +216,10 @@ const ConferenceEvent = () => {
                                         }}
                                         min="1"
                                     />
-                                 </div>   
+                                </div>   
 
 
-                                </div>
+                                
                                 
                                 <div className="meal_selection">
                                     {mealsItems.map((item, index) => (
@@ -238,10 +238,10 @@ const ConferenceEvent = () => {
                                 <div className="total_cost">Total Cost: </div>
                                                   
 
-
-
                             </div>
-                        </div>
+                        </div>                    
+
+                        
                     ) : (
                         <div className="total_amount_detail">
                             <TotalCost totalCosts={totalCosts} handleClick={handleToggleItems} ItemsDisplay={() => <ItemsDisplay items={items} />} />
